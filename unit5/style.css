@@ -1,0 +1,76 @@
+body{
+  background-color: lightblue;
+}
+
+h1{
+     text-align: center;
+}
+
+h2{
+   text-align: center;
+}
+
+h3{
+   text-align: center;
+}
+
+#wrapper{
+width:80%;
+margin: auto;
+background-color: green;
+box-shadow: 5px 5px 5px #ccc;
+}
+
+divs{
+  width: 90;
+  margin: auto;
+}
+.itembox{
+border: 3px solid lightseagreen;
+border-radius: 40px;
+box-shadow: 5px 5px 5px #00b3ff;
+background-color: #ff6600;
+color: red;
+padding: 35px;
+background-image: url("rubberduck.jpg");
+}
+
+.favorite{
+border: 3px solid brown;
+border-radius: 40px;
+box-shadow: 5px 5px 5px #00ff4c;
+background-color: #59ff00;
+color: #00aaff;
+padding: 35px;
+background-image: url("Withered_chicavr.webp");
+background-size: 200px; 
+list-style-type: georgian;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+#id {
+  
+}
