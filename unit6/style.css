@@ -1,0 +1,30 @@
+#myimage{
+  width: 150px;
+  height: 300px;
+}
+
+#borderimg{
+  background-color: darkgreen;
+  color: #eeff00;
+}
+body{
+  background-image: url('Luigis_mansion2.jpg');
+  background-size: cover;
+  
+}
+
+.wrapper{
+ width:60%;
+ margin: auto;
+ margin-top: 30px;
+}
+
+ul{
+  list-style-image: url('goomba.png');
+}
+
+.specialborder{
+border: 15px solid transparent;
+padding: 15px;
+border-image: url(mario_boarder.png) 30 round;
+}
