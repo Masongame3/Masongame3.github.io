@@ -1,0 +1,28 @@
+img{
+  display: none;
+}
+
+body{
+  font-size: 1.25em;
+}
+
+/*select the nav and sidebar id's and set display to none 
+
+# for id's*/  
+
+#nav{
+display: none; 
+}
+
+#sidebar{
+  display: none;
+}
+
+body{
+  background-color: white;
+  color: black;
+}
+
+a::after{
+    content: " (" attr(href) ") ";
+  }
